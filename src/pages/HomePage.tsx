@@ -1,4 +1,5 @@
-import Menu from "@/components/Navigation/Menu";
+import SectionActivity from "@/components/Home/SectionActivity";
+import SectionBanner from "@/components/Home/SectionBanner";
 import MainLayout from "@/layouts/MainLayout";
 
 export default function HomePage() {
@@ -6,10 +7,8 @@ export default function HomePage() {
         <>
             <title>Home Page</title>
             <MainLayout>
-                <div className="p-4">
-                    <h1 className="text-2xl font-bold text-gray-800 mb-4">Home</h1>
-                </div>
-                <Menu />
+                <SectionBanner/>
+                <SectionActivity />
             </MainLayout>
         </>
     )
