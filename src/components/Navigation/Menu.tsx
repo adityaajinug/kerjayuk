@@ -24,9 +24,9 @@ export default function Menu() {
                     <div className="absolute left-1/2 -translate-x-1/2 -translate-y-5 z-50 flex flex-col items-center">
                         <a href="#" className="flex flex-col items-center group">
                             <div className="bg-webstyle-primary rounded-full shadow-top flex items-center justify-center w-16 h-16 group-hover:scale-90 transition-all delay-75">
-                                <IoLogOut className="text-white text-2xl" />
+                                <IoLogOut className="text-white text-3xl" />
                             </div>
-                            <span className="text-sm font-medium text-webstyle-primary mt-1">Check Out</span>
+                            <span className="text-sm font-medium text-webstyle-primary">Check Out</span>
                         </a>
                     </div>
 
