@@ -1,8 +1,19 @@
+import SectionActivity from "@/components/Home/SectionActivity";
+import SectionBanner from "@/components/Home/SectionBanner";
+import SectionNews from "@/components/Home/SectionNews";
+import SectionUsers from "@/components/Home/SectionUsers";
+import MainLayout from "@/layouts/MainLayout";
+
 export default function HomePage() {
     return (
         <>
             <title>Home Page</title>
-            <h1>Home Page</h1>
+            <MainLayout>
+                <SectionBanner/>
+                <SectionActivity />
+                <SectionNews />
+                <SectionUsers />
+            </MainLayout>
         </>
     )
 }

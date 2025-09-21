@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Modak&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.font-logo {
+     font-family: "Modak", system-ui;
+}
+
+section {
+    padding: 14px 24px;
+
+    &#news {
+        padding: 14px 0;
+        
+        .news-slide {
+            padding: 0 0 20px 0;
+
+            .swiper-pagination-bullets {
+                .swiper-pagination-bullet {
+                    background-color: #d9d9d9 !important;
+
+                    &-active {
+                        background-color: #f82d16 !important;
+                    }   
+                }
+            }
+        }
+    }
+    
+
+    &:last-child {
+        margin-bottom: 100px;
+    }
+}
