@@ -5,7 +5,7 @@ export default function SectionActivity() {
     return (
         <>
             <section id="activity">
-                <h3 className="text-sm font-semibold mb-3">Today's activity</h3>
+                <h3 className="text-sm font-bold mb-3">Today's activity</h3>
                 <div className="flex justify-evenly gap-8 items-center">
                     <div className="flex items-center flex-col gap-1">
                         <LuClock3 className="rotate-[270deg] text-3xl text-webstyle-primary font-semibold" />
