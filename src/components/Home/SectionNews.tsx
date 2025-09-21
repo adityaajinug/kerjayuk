@@ -42,7 +42,7 @@ export default function SectionNews() {
                                     <div className="flex flex-col gap-4 shadow-md p-4 rounded-lg">
                                         <div className="flex justify-between">
                                             <div className="flex gap-2 items-center">
-                                                <div className="max-w-10 overflow-hidden rounded-full">
+                                                <div className="max-w-12 overflow-hidden rounded-full">
                                                     <img src={data.avatar} alt="" className="w-full h-full" />
                                                 </div>
                                                 <h3 className="text-webstyle-primary font-semibold">{data.author}</h3>

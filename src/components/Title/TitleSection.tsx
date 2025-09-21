@@ -5,7 +5,7 @@ interface Props {
 export default function TitleSection({ title }: Props) {
     return (
         <>
-            <h3 className="text-sm font-bold mb-3">{title}</h3>
+            <h3 className="text-base font-bold mb-3">{title}</h3>
         </>
     )
 }
