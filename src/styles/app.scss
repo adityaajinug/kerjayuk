@@ -15,5 +15,23 @@ body {
 }
 
 section {
-    padding: 14px 0;
+    padding: 14px 24px;
+
+    &#news {
+        padding: 14px 0;
+        
+        .news-slide {
+            padding: 0 0 20px 0;
+
+            .swiper-pagination-bullets {
+                .swiper-pagination-bullet {
+                    background-color: #d9d9d9 !important;
+
+                    &-active {
+                        background-color: #f82d16 !important;
+                    }   
+                }
+            }
+        }
+    }
 }

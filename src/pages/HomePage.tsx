@@ -1,5 +1,6 @@
 import SectionActivity from "@/components/Home/SectionActivity";
 import SectionBanner from "@/components/Home/SectionBanner";
+import SectionNews from "@/components/Home/SectionNews";
 import MainLayout from "@/layouts/MainLayout";
 
 export default function HomePage() {
@@ -9,6 +10,7 @@ export default function HomePage() {
             <MainLayout>
                 <SectionBanner/>
                 <SectionActivity />
+                <SectionNews />
             </MainLayout>
         </>
     )

@@ -5,13 +5,15 @@ import { Link } from "react-router";
 export default function SectionBanner() {
     return (
         <>
-            <Link to="/notification" className="flex justify-between items-center">
-                <h1 className="text-webstyle-primary text-xl font-logo">KerjaYuk!</h1>
-                <div className="relative">
-                    <IoMdNotificationsOutline className="text-3xl" />
-                    <div className="absolute top-1.5 right-1 w-2 h-2 bg-webstyle-primary rounded-full"></div>
-                </div>
-            </Link>
+            <section id="topbar">
+                <Link to="/notification" className="flex justify-between items-center">
+                    <h1 className="text-webstyle-primary text-xl font-logo">KerjaYuk!</h1>
+                    <div className="relative">
+                        <IoMdNotificationsOutline className="text-3xl" />
+                        <div className="absolute top-1.5 right-1 w-2 h-2 bg-webstyle-primary rounded-full"></div>
+                    </div>
+                </Link>
+            </section>
 
             <section id="banner">
                 <h3 className="text-sm font-normal mb-3">Hi, Good Morning!</h3>
