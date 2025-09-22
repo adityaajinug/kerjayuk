@@ -10,7 +10,7 @@ export default function SectionNotificationItem() {
                     const StatusIcon = item.statusIcon;
                     return (
 
-                        <Link  to={item.link} key={item.id} className="flex gap-3 py-5 px-6 hover:bg-webstyle-accent cursor-pointer">
+                        <Link  to={item.link} key={index} className="flex gap-3 py-5 px-6 hover:bg-webstyle-accent cursor-pointer">
                             <div className="relative rounded-lg bg-gradient-to-r from-webstyle-primary via-[#d91a43] to-[#cc1555] px-4 py-4 h-fit">
                                 <Icon className="text-white text-2xl" />
                                 <div

@@ -5,7 +5,7 @@ import { Link } from "react-router";
 export default function SectionBanner() {
     return (
         <>
-            <section id="topbar" className="sticky top-0 bg-white">
+            <header id="topbar" className="sticky top-0 bg-white">
                 <Link to="/notification" className="flex justify-between items-center hover:text-webstyle-primary">
                     <h1 className="text-webstyle-primary text-xl font-logo">KerjaYuk!</h1>
                     <div className="relative">
@@ -13,7 +13,7 @@ export default function SectionBanner() {
                         <div className="absolute top-1.5 right-1 w-2 h-2 bg-webstyle-primary rounded-full"></div>
                     </div>
                 </Link>
-            </section>
+            </header>
 
             <section id="banner">
                 <h3 className="text-sm font-normal mb-3">Hi, Good Morning!</h3>
