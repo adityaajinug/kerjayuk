@@ -9,7 +9,8 @@ export default {
         colors: {
             webstyle: {
                 "primary": "#f82d16",
-                "grey": "#a0a0a0"
+                "grey": "#a0a0a0",
+                "accent": "#d7e5ff"
             }
         },
         boxShadow: {

@@ -5,8 +5,8 @@ import { Link } from "react-router";
 export default function SectionBanner() {
     return (
         <>
-            <section id="topbar">
-                <Link to="/notification" className="flex justify-between items-center">
+            <section id="topbar" className="sticky top-0 bg-white">
+                <Link to="/notification" className="flex justify-between items-center hover:text-webstyle-primary">
                     <h1 className="text-webstyle-primary text-xl font-logo">KerjaYuk!</h1>
                     <div className="relative">
                         <IoMdNotificationsOutline className="text-3xl" />
